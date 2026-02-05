@@ -13,7 +13,7 @@ It is necessary that your repository is public in creating a github page. If you
 
 3. Under 'General', scroll to 'Danger Zone > Change Repository Visibility'.
 4. Click 'Change Visibility' and do the necessary steps to publicize your repository. 
-### Build and Deployment
+### Build and Deploy
 5. Under 'Code and automation' panel, navigate to Pages
 6. Scroll to 'Build and Deployment > Branch' and set the branch to 'main' and folder to '/(root)'.
 ### You're All Set!
