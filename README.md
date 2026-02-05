@@ -7,6 +7,7 @@ BS Computer Science
 2. In the repository, navigate to 'settings'
 ### Publicize Repository
 It is necessary that your repository is public in creating a github page. If your repository is already public, skip this section and head to the next, 'Build and Deployment'.
+
 3. Under 'General', scroll to 'Danger Zone > Change Repository Visibility'.
 4. Click 'Change Visibility' and do the necessary steps to publicize your repository. 
 ### Build and Deployment
