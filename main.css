@@ -55,7 +55,11 @@ img {
 
 /* Feature Photo */
 #featured-photo {
-
+    p {
+        border-top: solid 1px;
+        width: fit-content;
+        padding-top: 0.25rem;
+    }
 }
 
 #profile-picture {
@@ -96,11 +100,22 @@ img {
     display: flex;
     flex-direction: row;
     gap: 1rem;
+    flex-wrap: wrap;
     
     & > div {
         display: inline-block;
         flex-grow: 1;
     }
+}
+
+#skills {
+    ul {
+        margin: 0 1rem;
+        list-style-type: "> ";
+    }
+}
+#autobiography {
+    max-width: 40rem;
 }
 
 /* Footer */
@@ -109,7 +124,7 @@ footer {
     flex-direction: row;
     gap: 2rem;
     border-top: solid 2px;
-    margin-top: 2rem;
+    margin-top: 4rem;
     padding: 1rem;
     align-items: center;
 }
