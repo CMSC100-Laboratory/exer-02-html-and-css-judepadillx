@@ -5,7 +5,7 @@ BS Computer Science
 
 [Live Website Link](https://cmsc100-laboratory.github.io/exer-02-html-and-css-judepadillx/)
 
-## Steps on Creating GitHub Page
+## Steps on Creating a GitHub Page
 1. Create a repository on Github
 2. In the repository, navigate to 'settings'
 ### Publicize Repository
