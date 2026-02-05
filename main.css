@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
+
+* {
+    font-family: "Libre Baskerville", serif;
+    font-size: 1rem;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    margin: 0 auto;
+    width: fit-content;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    gap: 2rem;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+body {
+    margin: 3rem;
+}
+
+main {
+    margin-top: 2rem;
+}
+
+h1 {
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    border-bottom: solid 2px;
+    display: block;
+    width: 100%;
+}
+
+img {
+    filter: saturate(0);
+}
+
+/* Feature Photo */
+#featured-photo {
+
+}
+
+#profile-picture {
+    margin: 0 auto;
+    display: inline-block;
+    width: 10rem;
+}
+
+/* Previous Projects */
+#previous-projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 0.5rem
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+
+    img {
+        width: 20rem;
+        height: 15rem;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    a {
+        margin: 0.5rem 1rem;
+        display: inline;
+        text-align: center;
+    }
+}
+
+/* Skills and Autobiography */
+#skills-and-autobiography {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    
+    & > div {
+        display: inline-block;
+        flex-grow: 1;
+    }
+}
+
+/* Footer */
+footer {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    border-top: solid 2px;
+    margin-top: 2rem;
+    padding: 1rem;
+    align-items: center;
+}
+
+#logo {
+    width: 8rem;
+    height: auto;
+}
